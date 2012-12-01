@@ -1,0 +1,26 @@
+{
+  "name": "permute",
+  "preferGlobal": false,
+  "version": "0.1.0",
+  "author": "Ulrik Sandberg  <ulrik.sandberg -at- jayway.com>",
+  "description": "A Node.js module with a very specific function, permute.core.sel_index, for returning the i:th element of the 1-n selections of a given string, where n is the length of the string. A 1 selection of [1 2] is just [1 2], a 2 selection of [1 2] is the cartesian product of [1 2] and [1 2], ie [[1 1] [1 2] [2 1] [2 2]]. However, sel_index works only with strings. For example, sel_index(\"abc\", 0) => a, sel_index(\"abc\", 3) => aa, sel_index(\"abc\", 15) => aba, while sel_index(\"abc\", 38) => ccc",
+  "contributors": [
+    "Ulrik Sandberg  <ulrik.sandberg -at- jayway.com>",
+    "Mattias Ask  <mattias.ask -at- jayway.com>"],
+  "repository": {
+    "type": "git",
+    "url": ""}
+  ,
+  "license": "AGPL",
+  "dependencies": {
+    "npm": ">= 1.1.2"}
+  ,
+  "devDependencies": {}
+  ,
+  "optionalDependencies": {}
+  ,
+  "engines": {
+    "node": "0.6 || 0.7 || 0.8"}
+  ,
+  "homepage": "",
+  "main": "lib/main.js"}
