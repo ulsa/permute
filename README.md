@@ -20,6 +20,16 @@ Examples:
 
 ## Usage
 
+Clone the repo:
+
+    git clone git://github.com/ulsa/permute.git
+
+Then update the submodules ([ClojureScript](https://github.com/clojure/clojurescript) is a submodule):
+
+    git submodule update --init
+
+Make sure you have [Leiningen2](https://github.com/technomancy/leiningen) installed.
+
 Compile the ClojureScript with `lein cljsbuild once`, test using the
 script `bin/sel_index`:
 
