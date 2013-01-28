@@ -13,10 +13,10 @@ strings.
 
 Examples:
 
-    sel_index(\"abc\", 0) => a
-    sel_index(\"abc\", 3) => aa
-    sel_index(\"abc\", 15) => aba
-    sel_index(\"abc\", 38) => ccc
+    sel_index("abc", 0) => a
+    sel_index("abc", 3) => aa
+    sel_index("abc", 15) => aba
+    sel_index("abc", 38) => ccc
 
 ## Usage
 
